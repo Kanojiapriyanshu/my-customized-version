@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 
-export default function HeroSection({ content }) {
+export default function HeroSectionPriyanshuKanojia({ content }) {
   const {
     title = 'STELLA NELSON,',
     subtitle = 'BEAUTY ARTIST',
@@ -48,4 +48,4 @@ export default function HeroSection({ content }) {
       </div>
     </div>
   );
-} 
+}
