@@ -19,7 +19,7 @@ export default function Testimonial1({ content, items, theme, config }) {
             subtitle: "CEO at TechCorp",
             description:
               "Working with this team was a game-changer for our business. They delivered exceptional quality and exceeded our expectations in every way.",
-            image_url: "/placeholder-avatar.jpg",
+            image_url: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
             rating: "5",
           },
           {
@@ -28,7 +28,7 @@ export default function Testimonial1({ content, items, theme, config }) {
             subtitle: "Marketing Director",
             description:
               "The level of creativity and attention to detail was impressive. Our new website has received countless compliments and has significantly increased our conversions.",
-            image_url: "/placeholder-avatar.jpg",
+            image_url: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
             rating: "5",
           },
           {
@@ -37,7 +37,7 @@ export default function Testimonial1({ content, items, theme, config }) {
             subtitle: "Small Business Owner",
             description:
               "As a small business owner, I needed an affordable but professional website. They delivered exactly what I needed, on time and within budget.",
-            image_url: "/placeholder-avatar.jpg",
+            image_url: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
             rating: "4",
           },
         ];

@@ -22,7 +22,7 @@ export default function Team2({ content, items, theme, config }) {
         Prior to founding this company, Jane held leadership positions at several Fortune 500 companies where she developed her expertise in strategic growth and innovation.
         
         Jane holds an MBA from Harvard Business School and is a frequent speaker at industry conferences around the world. Her leadership philosophy centers on empowering teams and fostering a culture of continuous learning and improvement.`,
-        image_url: '/placeholder-avatar.jpg',
+        image_url: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
         cta_text: 'Connect on LinkedIn',
         cta_link: '#',
       };

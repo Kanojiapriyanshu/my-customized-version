@@ -3,6 +3,7 @@
 import { useApp } from "@/contexts/AppContext";
 import { getComponentKey } from "@/lib/components/registry";
 import dynamic from "next/dynamic";
+import GallerySectionPriyanshuKanojia from "./sections/GallerySectionPriyanshuKanojia";
 
 // Dynamic component map for section types and variants - moved to client component
 const SECTION_MAP = {
@@ -14,6 +15,7 @@ const SECTION_MAP = {
   about_1: dynamic(() => import("@/components/sections/About1")),
   services_1: dynamic(() => import("@/components/sections/Services1")),
   testimonial_1: dynamic(() => import("@/components/sections/Testimonial1")),
+  testimonial_priyanshu: dynamic(() => import("@/components/sections/TestimonialSection-PriyanshuKanojia")),
   faq_1: dynamic(() => import("@/components/sections/FAQ1")),
   contact_1: dynamic(() => import("@/components/sections/Contact1")),
   footer_1: dynamic(() => import("@/components/sections/Footer1")),
@@ -28,6 +30,13 @@ const SECTION_MAP = {
   cta_2: dynamic(() => import("@/components/sections/CTA2")),
   team_1: dynamic(() => import("@/components/sections/Team1")),
   team_2: dynamic(() => import("@/components/sections/Team2")),
+  hero_priyanshu: dynamic(() => import("@/components/sections/HeroSection-PriyanshuKanojia")),
+  // features_priyanshu: dynamic(() => import("@/components/sections/FeaturesGrid-PriyanshuKanojia")),
+  footer_priyanshu: dynamic(() => import("@/components/sections/Footer-PriyanshuKanojia")),
+  header_priyanshu: dynamic(() => import("@/components/sections/HeaderSection-PriyanshuKanojia")),
+  services_priyanshu: dynamic(() => import("@/components/sections/ServicesSection-PriyanshuKanojia")),
+  cta_priyanshu: dynamic(() => import("@/components/sections/AppointmentCTASection-PriyanshuKanojia")),
+  GallerySectionPriyanshuKanojia: dynamic(() => import("@/components/sections/GallerySectionPriyanshuKanojia")),
 };
 
 export default function PageContent({ page, sections, theme, config }) {

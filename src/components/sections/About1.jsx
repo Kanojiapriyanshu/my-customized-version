@@ -18,28 +18,28 @@ export default function About1({ content, items, theme, config }) {
           title: 'Jane Smith',
           subtitle: 'CEO & Founder',
           description: 'Jane has over 15 years of experience in web development and digital marketing.',
-          image_url: '/placeholder-avatar.jpg',
+          image_url: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop',
         },
         {
           id: '2',
           title: 'John Davis',
           subtitle: 'Lead Developer',
           description: 'John specializes in front-end development and creating beautiful user interfaces.',
-          image_url: '/placeholder-avatar.jpg',
+          image_url: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop',
         },
         {
           id: '3',
           title: 'Sarah Johnson',
           subtitle: 'Design Director',
           description: 'Sarah is an award-winning designer with a passion for creating memorable brands.',
-          image_url: '/placeholder-avatar.jpg',
+          image_url: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop',
         },
         {
           id: '4',
           title: 'Michael Wilson',
           subtitle: 'Marketing Specialist',
           description: 'Michael has helped numerous businesses grow their online presence and reach new customers.',
-          image_url: '/placeholder-avatar.jpg',
+          image_url: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop',
         },
       ];
 

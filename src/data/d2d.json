@@ -13,8 +13,8 @@
       "site_id": "4fafcd74-7ba1-48a2-937f-4a46a5010c37",
       "title": "D2D Demo Website",
       "description": "A demonstration of our modular website builder",
-      "og_image": "https://via.placeholder.com/1200x630",
-      "favicon": "https://via.placeholder.com/32x32",
+      "og_image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643",
+      "favicon": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=32&h=32&fit=crop",
       "keywords": "demo, website, modular, builder",
       "twitter_handle": "@demosite"
     },
@@ -69,187 +69,165 @@
         "title": "Home Page",
         "sections": [
           {
-            "id": "8d8d8b47-f240-4b64-9f8a-c0f72c737ced",
+            "id": "header-priyanshu-001",
             "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
             "type": "header",
-            "variant": "1",
+            "variant": "priyanshu",
             "position": 1,
+            "is_active": true,
+            "content": {
+              "id": "header-content-001",
+              "section_id": "header-priyanshu-001",
+              "logo": "Nelson",
+              "logo_url": null,
+              "nav_links": [
+                { "label": "Home", "href": "/" },
+                { "label": "Services", "href": "/services" },
+                { "label": "About us", "href": "/about" },
+                { "label": "Pages", "href": "/pages" },
+                { "label": "News", "href": "/news" },
+                { "label": "Shop", "href": "/shop" },
+                { "label": "Contacts", "href": "/contacts" },
+                { "label": "Appointment", "href": "/appointment" }
+              ],
+              "cart": {
+                "icon": true,
+                "price": "$0.00"
+              },
+              "appointment_button": {
+                "label": "APPOINTMENT",
+                "href": "/appointment"
+              },
+              "background": "#232224"
+            },
+            "items": []
+          },
+          {
+            "id": "8d8d8b47-f240-4b64-9f8a-c0f72c737ced",
+            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+            "type": "hero",
+            "variant": "priyanshu",
+            "position": 2,
             "is_active": true,
             "content": {
               "id": "9b742a78-b86f-4a6a-9f0c-f39747ec5d3f",
               "section_id": "8d8d8b47-f240-4b64-9f8a-c0f72c737ced",
-              "title": "New Section",
-              "subtitle": "Subtitle",
-              "description": "Description for the new section",
-              "image_url": "https://i.ibb.co/2LcZ3BQ/logo.webp",
-              "background_url": null,
-              "cta_text": "Get Started",
-              "cta_link": "/contact"
+              "title": "STELLA NELSON,",
+              "subtitle": "BEAUTY ARTIST",
+              "description": "Come by for a haircut, nail service and good mood",
+              "image_url": null,
+              "background_url": "https://nails.nelson.themerex.net/wp-content/uploads/2022/06/bg-nails-copyright-scaled-1.jpg",
+              "cta_text": "VIEW OUR SERVICES",
+              "cta_link": "/services"
+            },
+            "items": []
+          },
+          {
+            "id": "services-priyanshu-001",
+            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+            "type": "services",
+            "variant": "priyanshu",
+            "position": 3,
+            "is_active": true,
+            "content": {
+              "image_url": "https://nails.nelson.themerex.net/wp-content/uploads/2022/06/gallery-nails-3-copyright-scaled-1.jpg",
+              "heading": "SERVICE IS BEAUTIFUL",
+              "highlight": ["IS", "BEAUTIFUL"],
+              "description": "Our salon is created for women who appreciate high quality, perfect service, and a first-class look. Welcome to Nelson!",
+              "cta_text": "READ MORE ABOUT US",
+              "cta_link": "/about"
+            },
+            "items": []
+          },
+          {
+            "id": "cta-priyanshu-001",
+            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+            "type": "cta",
+            "variant": "priyanshu",
+            "position": 4,
+            "is_active": true,
+            "content": {
+              "background_url": "https://nails.nelson.themerex.net/wp-content/uploads/2022/06/image-1-nails-copyright-scaled-1.jpg",
+              "heading": "MAKE AN APPOINTMENT",
+              "highlight": ["MAKE"],
+              "button_text": "SEND MESSAGE",
+              "privacy_text": "I have read and agree with the Privacy Policy.",
+              "privacy_link": "/privacy"
+            },
+            "items": []
+          },
+          {
+            "id": "testimonial-priyanshu-001",
+            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+            "type": "testimonial",
+            "variant": "priyanshu",
+            "position": 5,
+            "is_active": true,
+            "content": {
+              "image_url": "https://nails.nelson.themerex.net/wp-content/uploads/2022/06/image-2-nails-copyright-scaled-1.jpg",
+              "heading": "WHAT CLIENTS SAY ABOUT",
+              "highlight": ["WHAT", "SAY", "ABOUT"]
             },
             "items": []
           },
           {
             "id": "d7592df9-ae00-40a2-bdc5-fdddf326e59a",
             "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
-            "type": "hero",
-            "variant": "2",
-            "position": 2,
+            "type": "features",
+            "variant": "priyanshu",
+            "position": 6,
             "is_active": true,
             "content": {
               "id": "a6aa9cff-ca3a-47f2-934d-7a0e4fc0fcf3",
               "section_id": "d7592df9-ae00-40a2-bdc5-fdddf326e59a",
-              "title": "Build Beautiful barber shop",
-              "subtitle": "Modern Web Development",
-              "description": "Our modular website builder allows you to create stunning websites with ease. No coding required.",
-              "image_url": "https://i.ibb.co/2LcZ3BQ/logo.webp",
-              "background_url": null,
-              "cta_text": "Get Started",
-              "cta_link": "/contact"
+              "title": "Why Choose Us",
+              "subtitle": "Our Features",
+              "description": "Discover what makes our platform the perfect choice for your business.",
+              "columns": "3"
             },
-            "items": []
-          },
-          {
-            "id": "a088a10c-5616-42c0-a90a-c5b19544c757",
-            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
-            "type": "services",
-            "variant": "1",
-            "position": 3,
-            "is_active": true,
-            "content": {
-              "id": "9122a11d-fcb9-4109-a182-8f45fa2a3df1",
-              "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
-              "title": "Our Services",
-              "subtitle": "What We Offer",
-              "description": "We provide a range of services to help your business grow online.",
-              "image_url": null,
-              "background_url": null,
-              "cta_text": "View All Services",
-              "cta_link": "/services"
-            },
+            
             "items": [
               {
                 "id": "697983ce-5f8b-46db-89be-22e6471f3f5a",
-                "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
-                "title": "Web Development",
-                "subtitle": "Custom Solutions",
-                "description": "We build responsive, fast-loading websites that look great on any device.",
-                "icon": "code",
-                "image_url": "https://via.placeholder.com/400x300",
-                "rating": null,
-                "price": null,
-                "duration": null,
-                "tag": null,
+                "section_id": "d7592df9-ae00-40a2-bdc5-fdddf326e59a",
+                "title": "Modern Design",
+                "subtitle": "Beautiful UI",
+                "description": "Clean and modern interface that looks great on any device.",
+                "icon": "palette",
+                "image_url": "https://images.unsplash.com/photo-1499750310107-5fef28a66643",
                 "position": 0
               },
               {
+                "id": "testimonial-priyanshu-001",
+                "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+                "type": "testimonial",
+                "variant": "priyanshu",
+                "position": 5,
+                "is_active": true,
+                "content": {
+                  "image_url": "https://nails.nelson.themerex.net/wp-content/uploads/2022/06/image-2-nails-copyright-scaled-1.jpg",
+                  "heading": "WHAT CLIENTS SAY ABOUT",
+                  "highlight": ["WHAT", "SAY", "ABOUT"]
+                }
+              },              
+              {
                 "id": "8838565f-e964-40be-b8b8-5c0e38180d80",
-                "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
-                "title": "E-commerce",
-                "subtitle": "Online Stores",
-                "description": "Create your online store with secure payment processing and inventory management.",
-                "icon": "search",
-                "image_url": "https://via.placeholder.com/400x300",
-                "rating": null,
-                "price": null,
-                "duration": null,
-                "tag": null,
+                "section_id": "d7592df9-ae00-40a2-bdc5-fdddf326e59a",
+                "title": "Fast Performance",
+                "subtitle": "Optimized Speed",
+                "description": "Lightning-fast loading times and smooth interactions.",
+                "icon": "zap",
+                "image_url": "https://images.unsplash.com/photo-1499750310107-5fef28a66643",
                 "position": 1
               },
               {
                 "id": "19d93208-162d-46b8-a57c-69294d21ab14",
-                "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
-                "title": "SEO Optimization",
-                "subtitle": "Improve Rankings",
-                "description": "Enhance your online presence with our search engine optimization services.",
-                "icon": "share",
-                "image_url": "https://via.placeholder.com/400x300",
-                "rating": null,
-                "price": null,
-                "duration": null,
-                "tag": null,
-                "position": 2
-              }
-            ]
-          },
-          {
-            "id": "53760ad3-06dc-43f9-ad66-c42937f90aeb",
-            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
-            "type": "about",
-            "variant": "1",
-            "position": 3,
-            "is_active": true,
-            "content": {
-              "id": "c401e429-d283-45bb-948d-4b4485b97e6c",
-              "section_id": "53760ad3-06dc-43f9-ad66-c42937f90aeb",
-              "title": "New Section",
-              "subtitle": "Subtitle",
-              "description": "Description for the new section",
-              "image_url": null,
-              "background_url": null,
-              "cta_text": null,
-              "cta_link": null
-            },
-            "items": []
-          },
-          {
-            "id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
-            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
-            "type": "testimonial",
-            "variant": "1",
-            "position": 4,
-            "is_active": true,
-            "content": {
-              "id": "48813f16-3aea-471a-8df6-b3f999c5617d",
-              "section_id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
-              "title": "Customer Testimonials",
-              "subtitle": "What Our Clients Say",
-              "description": "Hear from our satisfied customers about their experience working with us.",
-              "image_url": null,
-              "background_url": null,
-              "cta_text": null,
-              "cta_link": null
-            },
-            "items": [
-              {
-                "id": "574ffd62-8291-4c24-9996-0022ae00bb93",
-                "section_id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
-                "title": "John Smith",
-                "subtitle": "CEO, TechStart",
-                "description": "Working with this team has been an incredible experience. Their attention to detail and commitment to excellence is unmatched.",
-                "icon": null,
-                "image_url": "https://via.placeholder.com/100x100",
-                "rating": 5,
-                "price": null,
-                "duration": null,
-                "tag": null,
-                "position": 0
-              },
-              {
-                "id": "8f60eb15-48cb-4332-9eb8-069c06116102",
-                "section_id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
-                "title": "Sarah Johnson",
-                "subtitle": "Marketing Director",
-                "description": "I was amazed at how quickly they understood our brand and delivered exactly what we needed. Highly recommended!",
-                "icon": null,
-                "image_url": "https://via.placeholder.com/100x100",
-                "rating": 5,
-                "price": null,
-                "duration": null,
-                "tag": null,
-                "position": 1
-              },
-              {
-                "id": "350c0ae3-a23d-4f07-988d-cc5d384732f7",
-                "section_id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
-                "title": "Michael Brown",
-                "subtitle": "Small Business Owner",
-                "description": "Their work helped transform my business. Professional, responsive, and truly talented team.",
-                "icon": null,
-                "image_url": "https://via.placeholder.com/100x100",
-                "rating": 4,
-                "price": null,
-                "duration": null,
-                "tag": null,
+                "section_id": "d7592df9-ae00-40a2-bdc5-fdddf326e59a",
+                "title": "Secure Platform",
+                "subtitle": "Enterprise Security",
+                "description": "Bank-level security to keep your data safe and protected.",
+                "icon": "shield",
+                "image_url": "https://images.unsplash.com/photo-1499750310107-5fef28a66643",
                 "position": 2
               }
             ]
@@ -258,21 +236,48 @@
             "id": "0a07df4f-b9fb-45f5-843a-f5ae513d0e61",
             "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
             "type": "footer",
-            "variant": "1",
-            "position": 6,
+            "variant": "priyanshu",
+            "position": 7,
             "is_active": true,
             "content": {
               "id": "0c6e2e4e-78dd-4e53-b5f6-2c9b793feccc",
               "section_id": "0a07df4f-b9fb-45f5-843a-f5ae513d0e61",
-              "title": "New Section",
-              "subtitle": "Subtitle",
-              "description": "Description for the new section",
-              "image_url": null,
-              "background_url": null,
-              "cta_text": null,
-              "cta_link": null
+              "title": "Your Company",
+              "description": "Building the future of digital experiences.",
+              "copyright": "© 2024 Your Company. All rights reserved."
             },
-            "items": []
+            "items": [
+              {
+                "id": "1",
+                "title": "Company",
+                "links": [
+                  { "label": "About Us", "href": "/about" },
+                  { "label": "Careers", "href": "/careers" },
+                  { "label": "Contact", "href": "/contact" }
+                ],
+                "position": 0
+              },
+              {
+                "id": "2",
+                "title": "Resources",
+                "links": [
+                  { "label": "Blog", "href": "/blog" },
+                  { "label": "Documentation", "href": "/docs" },
+                  { "label": "Support", "href": "/support" }
+                ],
+                "position": 1
+              },
+              {
+                "id": "3",
+                "title": "Legal",
+                "links": [
+                  { "label": "Privacy Policy", "href": "/privacy" },
+                  { "label": "Terms of Service", "href": "/terms" },
+                  { "label": "Cookie Policy", "href": "/cookies" }
+                ],
+                "position": 2
+              }
+            ]
           }
         ]
       }
